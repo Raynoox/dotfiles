@@ -2,7 +2,7 @@
 echo "🚀 Rozpoczynam automatyczną instalację środowiska..."
 
 echo "📦 Instalacja pakietów systemowych..."
-sudo apt update && sudo apt install -y zsh git curl ripgrep fd-find build-essential unzip pass gnupg
+sudo apt update && sudo apt install -y zsh git curl ripgrep fd-find build-essential unzip pass gnupg htop
 
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   echo "✨ Instalacja Oh-My-Zsh..."
